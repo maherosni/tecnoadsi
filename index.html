@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Malena</title>
+
+	<style type="text/Css">
+		*{
+			margin:0;
+			padding:0;
+			/*overflow:hidden;*/
+			box-sizing: border-box;
+			font-family: Helvetica;
+		}
+
+		body{
+			width:100%;
+			height:100vh;
+			margin-top:70px;
+			background-size:100% auto;
+			background-attachment: cover;
+			background-position: scroll;
+			background-repeat: no-repeat;
+			background-image:url(img/inicio.jpg, img/servicios.jpg, img/trabajos.jpg, img/proyectos.jpg);
+		}
+
+		header{
+			top:0;
+			left:0;
+			width:100%;
+			height:8vh;
+			position:fixed;
+			display:flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: center;
+			background-color:#E80C7A;
+		}
+
+		header .contenedor{
+			width:90%;
+			height: 8vh;
+			display:flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			align-items: center;
+			justify-content: space-between;
+			background-color:#560278;
+		}
+
+		header .contenedor .logo{
+			width:50px;
+			height:auto;
+			background-color: white;
+			justify-content: flex-start;
+		}
+
+		header .contenedor .menu{
+			justify-content: flex-end;
+		}
+
+		.nav-contenedor{
+			display:flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+		}
+
+		.nav-contenedor li{
+			width:100px;
+			height:auto;
+			padding:10px;
+			text-align: center;
+			align-items: center;
+			list-style: none;			
+		}
+
+		.nav-contenedor li:hover{
+			background-color:rgba(0,0,0,.3);
+		}
+
+		.nav-contenedor li a{
+			color:white;
+			font-size:13px;
+			font-weight: 700;
+			font-family: Helvetica;
+			text-decoration: none;
+		}
+
+		.contenido{
+			width:90%;
+			margin: auto;
+			padding:30px;
+			position:relative;
+		}
+
+		footer{
+			left:0;
+			bottom:0;
+			width:100%;
+			height:10vh;
+			position:absolute;
+		}
+	</style>
+
+</head>
+<body>
+
+	<header>
+		<div class="contenedor">
+			<div class="logo"><img src="" alt=""></div>
+			<div class="menu">
+				<nav class="nav-menu">
+					<ul class="nav-contenedor">
+						<li><a href="#"><span></span>INICIO</a></li>
+						<li><a href="#"><span></span>SERVICIOS</a></li>
+						<li><a href="#"><span></span>TRABAJOS</a></li>
+						<li><a href="#"><span></span>PROYECTOS</a></li>
+						<li><a href="#"><span></span>CONTACTO</a></li>
+						<li><a href="http://localhost/Factura/sesion.php"><span></span>LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div class="contenido">
+
+	</div>
+
+	<footer>
+		<div class="contenedor">
+			<div class="part1"></div>
+			<div class="part2"></div>
+		</div>
+	</footer>
+
+</body>
+</html>
